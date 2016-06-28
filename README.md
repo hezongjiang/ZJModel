@@ -14,6 +14,7 @@ NSDictionary *dict = @{
 };
 
 // 调用ZJModel方法
+
 [ZJModel modelWithDictionary:dict modelName:@"Model"];
 '''
 
