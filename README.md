@@ -2,7 +2,7 @@
 一个打印Json字典中模型属性的小工具
 
 ## 字典转属性输出
-'''objc
+```objc
 NSDictionary *dict = @{
 @"name" : @"Jack",
 @"icon" : @"lufy.png",
@@ -14,9 +14,8 @@ NSDictionary *dict = @{
 };
 
 // 调用ZJModel方法
-
 [ZJModel modelWithDictionary:dict modelName:@"Model"];
-'''
+```
 
 最后控制台会打印
 @interface Model :NSObject
