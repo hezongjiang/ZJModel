@@ -18,6 +18,7 @@ NSDictionary *dict = @{
 ```
 
 最后控制台会打印
+```objc
 @interface Model :NSObject
 @property (nonatomic, strong) NSNumber *money;
 @property (nonatomic,   copy) NSString *gay;
@@ -27,3 +28,4 @@ NSDictionary *dict = @{
 @property (nonatomic,   copy) NSString *name;
 @property (nonatomic,   copy) NSString *icon;
 @end
+```
