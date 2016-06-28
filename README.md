@@ -16,6 +16,7 @@ NSDictionary *dict = @{
 // 调用ZJModel方法
 [ZJModel modelWithDictionary:dict modelName:@"Model"];
 '''
+
 最后控制台会打印
 @interface Model :NSObject
 @property (nonatomic, strong) NSNumber *money;
