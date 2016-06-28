@@ -2,6 +2,7 @@
 一个打印Json字典中模型属性的小工具
 
 ## 字典转属性输出
+如果有以下一个字典
 ```objc
 NSDictionary *dict = @{
 @"name" : @"Jack",
@@ -12,12 +13,14 @@ NSDictionary *dict = @{
 @"gay"  : @"true",
 @"books": @[@"book1", @"book2"],
 };
-
+```
+调用ZJModel方法
+```objc
 // 调用ZJModel方法
 [ZJModel modelWithDictionary:dict modelName:@"Model"];
 ```
 
-最后控制台会打印
+最后控制台打印如下
 ```objc
 @interface Model :NSObject
 @property (nonatomic, strong) NSNumber *money;
